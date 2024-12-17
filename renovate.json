@@ -1,1 +1,21 @@
-{}
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "dependencyDashboard": true,
+    "dependencyDashboardLabels": [
+        "renovatebot"
+    ],
+    "extends": [
+        "config:recommended"
+    ],
+    "prConcurrentLimit": 0,
+    "prHourlyLimit": 0,
+    "labels": [
+        "renovatebot"
+    ],
+    "terraform": {
+        "ignorePaths": [
+            "**/examples/**"
+        ],
+        "pinDigests": true
+    }
+}
