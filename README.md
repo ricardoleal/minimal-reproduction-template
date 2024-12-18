@@ -1,8 +1,4 @@
-# Renovate fails to update when source is git::https #33149
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 33149
 
 ## Current behavior
 
